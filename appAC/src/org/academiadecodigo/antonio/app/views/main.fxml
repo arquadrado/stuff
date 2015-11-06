@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Accordion maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.academiadecodigo.antonio.app.controllers.MainController">
+  <panes>
+    <TitledPane animated="false" text="Lanterna">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="187.0" layoutY="86.0" prefHeight="184.0" prefWidth="253.0" text="lula">
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+      </content>
+    </TitledPane>
+    <TitledPane animated="false" text="Candelabro">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="155.0" layoutY="93.0" mnemonicParsing="false" onAction="#goBack" text="GO BACK" />
+                  <Button fx:id="goToLogin" layoutX="167.0" layoutY="135.0" mnemonicParsing="false" onAction="#goToLogin" text="GO TO LOGIN MENU" />
+               </children></AnchorPane>
+      </content>
+    </TitledPane>
+    <TitledPane animated="false" text="Diospiro">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="goNextWindowButton" layoutX="98.0" layoutY="69.0" mnemonicParsing="false" onAction="#goNextWindow" text="Go to next window" />
+               </children></AnchorPane>
+      </content>
+    </TitledPane>
+  </panes>
+</Accordion>

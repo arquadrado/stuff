@@ -1,0 +1,26 @@
+.container {
+    -fx-background-color: #ffffff;
+
+}
+
+
+.button {
+    -fx-background-color: #22a423;
+    -fx-text-fill: darkgray;
+    -fx-border-color: #a4181a;
+    -fx-border-width: 50;
+    -fx-border-style: dashed;
+}
+
+.button:hover {
+    -fx-background-color: blueviolet;
+    -fx-text-fill: green;
+}
+
+#test {
+    -fx-border-style: dashed;
+    -fx-border-color: #a4181a;
+    -fx-border-width:  40;
+    -fx-padding: 30px;
+    -fx-end-margin: 50px;
+}
